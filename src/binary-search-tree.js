@@ -174,20 +174,7 @@ class BinarySearchTree {
     } while (true);
   }
 
-  max() {
-    if (this.list === null) return null;
 
-    this.current = this.list;
-    do {
-      if (this.current.end === null) {
-        return this.current.data
-
-      } else {
-
-        this.current = this.current.end;
-      };
-    } while (true);
-  }
 }
 
 module.exports = {
